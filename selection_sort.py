@@ -12,6 +12,10 @@ def select_sort (array_nums):
             if array_nums[j] < array_nums[min_pos]:
                 min_pos = j
             
+        #swap
+        temp_v = array_nums[i]
+        array_nums[i] = array_nums[min_pos]
+        array_nums[min_pos] = temp_v
         
 
 #array
