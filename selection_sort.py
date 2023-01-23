@@ -10,6 +10,7 @@ def select_sort (array_nums):
             #change the min position 
             #check 
             if array_nums[j] < array_nums[min_pos]:
+                min_pos = j
             
         
 
