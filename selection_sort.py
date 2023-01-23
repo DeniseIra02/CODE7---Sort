@@ -20,3 +20,7 @@ def select_sort (array_nums):
 
 #array
 array_nums = [100, 7, 49, 1, 70, 36, 39, 69, 92, 48]
+
+select_sort(array_nums)
+
+print(array_nums)
