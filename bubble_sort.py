@@ -6,6 +6,12 @@ def bub_sort(array_nums):
     for i in range(len(array_nums)- 1, 0, -1):
         #inner loop
         for j in range(i):
+            #check 
+            if array_nums[j] > array_nums[j+1]:
+                #swap
+                temp_v = array_nums[j]
+                array_nums[j] = array_nums[j+1]
+                array_nums[j+1] = temp_v
         
 
 #array
