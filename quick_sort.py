@@ -16,5 +16,14 @@ def partition(array_nums, left, right):
     j = right - 1
     pivot = array_nums[right]
 
+    #check
+    while i < j:
+        #move i to right
+        while i < right and array_nums[i] < pivot:
+            i += 1
+        #move j to left    
+        while j > left and array_nums[j] >= pivot:
+            j -= 1
+        
 #array
 array_nums = [100, 7, 49, 1, 70, 36, 39, 69, 92, 48]
