@@ -29,8 +29,14 @@ def partition(array_nums, left, right):
         if i < j:
             #swap condition
             array_nums[i], array_nums[j] = array_nums[j], array_nums[i]
-            
-            
+    
+    #case 
+    if array_nums[i] > pivot:
+        #swap condition
+        array_nums[i], array_nums[right] = array_nums[right], array_nums[i]
+    
+    return i    
+        
             
                         
         
