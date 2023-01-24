@@ -42,3 +42,6 @@ def partition(array_nums, left, right):
         
 #array
 array_nums = [100, 7, 49, 1, 70, 36, 39, 69, 92, 48]
+quick_sort(array_nums, 0, len(array_nums) - 1)
+
+print (array_nums)
