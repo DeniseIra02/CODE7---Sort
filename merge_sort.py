@@ -29,6 +29,18 @@ def merge_sort(array_nums):
             j += 1
         
         k += 1
+    
+    #left array
+    while i < len(left_arr_nums):
+        array_nums[k] = left_arr_nums[i]
+        i += 1
+        k += 1
+    
+    #right array
+    while j < len(right_arr_nums):
+        array_nums[k] = right_arr_nums[j]
+        j += 1
+        k += 1
         
 #array
 array_nums = [100, 7, 49, 1, 70, 36, 39, 69, 92, 48]
