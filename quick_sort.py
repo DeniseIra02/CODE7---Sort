@@ -11,7 +11,10 @@ def quick_sort(array_nums, left, right):
         quick_sort(array_nums, partition_position + 1, right)
         
 
-def partition(array_nums, left, right)
+def partition(array_nums, left, right):
+    i = left
+    j = right - 1
+    pivot = array_nums[right]
 
 #array
 array_nums = [100, 7, 49, 1, 70, 36, 39, 69, 92, 48]
